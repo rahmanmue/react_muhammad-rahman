@@ -1,7 +1,0 @@
-Resume Materi GIT 
-
-Setiap Program atau code pasti akan selalu mengalami versi pembaruan dalam pengembangannya oleh karena itu
-terdapat tools dalam mengatur versi dari source code program yang mana salah satunya yang populer adalah GIT
-dimana digunakan developer untuk mengembangkan software secara bersama-sama GIT ini terdistribusi dimana code program 
-yang asli tersimpan diserver atau kita disimpan di github sebagai git hosting service yang mana dengan git kita bisa mengakses nya secara lokal. 
-dalam git untuk setiap perubahan di lokal terdapat git init sebagai inisialisasi,stagging area,branch,commit, lalu push untuk perubahan di github
