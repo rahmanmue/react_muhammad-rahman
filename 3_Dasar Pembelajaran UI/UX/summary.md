@@ -20,3 +20,6 @@ UI (User Interface )sebuah tampilan yang digunakan user untuk berinteraksi denga
 * Interface yang simpel dengan menghindari elemen yang tidak dibutuhkan
 * Iipografi yang bagus
 * Menawarkan feedback yang informatif
+
+# TASK 
+[link task Google Dokumen](https://docs.google.com/document/d/12sev-u1DpoPTq2FNJJsT_Z7IxY4NXwFWXFXqMuQsjYk/edit?usp=sharing)
