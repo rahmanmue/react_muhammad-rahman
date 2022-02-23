@@ -18,7 +18,7 @@ Untuk proses alur penyimpanan perubahan pada git adalah
 
 branch atau percabangan adalah sebuah cabang dimana bila kita ingin menambahkan fitur tanpa harus ditulis di master melainkan membuat sebuah cabang baru agar proses nya rapi tidak tumpang tindih yang mana setelah kode yang dibuat fix tidak ada perubahan maka akan di merge dengan master 
 
-3. Alur kerja dalam berkolaborasi dalam GIT
+## 3. Alur kerja dalam berkolaborasi dalam GIT
 
 untuk alur kerja dalam git lebih baik dan rapi terbagi dalam beberapa branch master, develop, dan sebuah fitur yang ingin ditambahkan. Dimana sebuah master adalah hasil akhir yang sudah final tidak ada perubahan sedangkan untuk develop merupakan hasil dari gabungan beberapa fitur yang telah dibuat branch yang yang memungkinkan ada perubahan.
 
