@@ -1,3 +1,2 @@
 [Link Github Prakktikum](https://github.com/rahmanmue/praktikum-github)
 
-[Link Network Repositori](https://github.com/rahmanmue/praktikum-github/network)
