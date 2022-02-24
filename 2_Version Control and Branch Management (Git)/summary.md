@@ -28,7 +28,6 @@ untuk alur kerja dalam git lebih baik dan rapi terbagi dalam beberapa branch mas
 
 [link github untuk network pada materi git](https://github.com/rahmanmue/praktikum-github/network)
 
-gambar screenshoot
 ![screenshots](screenshots/praktikum-github.png)
 
 
