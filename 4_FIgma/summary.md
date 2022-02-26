@@ -27,3 +27,7 @@ Figma adalah Sebuah editor grafik vektor dan alat prototyping yang terutama berb
 * Membuat Komponen
 * Membuat Elemen menjadi Fix
 * Membuat scroll dan hover 
+
+## Tugas Praktikum Figma 
+
+[Link Tugas Figma](https://www.figma.com/file/607nMYbA4PVjKcT7G1MlfL/Tugas-Figma)
