@@ -31,3 +31,12 @@ Figma adalah Sebuah editor grafik vektor dan alat prototyping yang terutama berb
 ## Tugas Praktikum Figma 
 
 [Link Tugas Figma](https://www.figma.com/file/607nMYbA4PVjKcT7G1MlfL/Tugas-Figma)
+
+### Halaman Utama
+![screenshots](screenshots/Halaman%20Utama.png)
+
+### Halaman Login
+![screenshots](screenshots/Login.png)
+
+### Halaman Register
+![screenshots](screenshots/Register.png)
