@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas CSS Alta</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        header{
+            background-color: #FBFBFB;
+            height: 50px;
+        }
+
+        .logo{
+            float: left;
+            padding: 10px 0 10px 10px;
+        }
+
+        nav{
+            float: right;
+            padding-right: 10px;     
+        }
+
+        ul li {
+            display: inline-block;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color:skyblue;
+            margin-right: 5px;
+        }
+
+        article{
+            background-image: url("img/sample-pattern.png");
+            background-size:contain;
+            min-height:100vh;
+            padding-bottom: 30px;
+            color: #3B4053;
+        }
+
+        .title{
+            text-align: center;
+            padding: 20px 10px;
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        .main{
+            margin: 0 auto;
+            background-color: white;
+            width: 75%;
+            height: auto;    
+        }
+
+        .content{
+            padding: 30px 20px 30px 20px;
+            border-bottom: 1px solid #3B4053 ;
+        }
+
+        .content:last-child{
+            border-bottom:none;
+        }
+
+        .content h1{
+            margin-bottom: 20px;
+            color: skyblue;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/sample-logo.png" alt="logo" width="150px" >
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+               </ul>
+        </nav>
+    </header>
+    <article>
+        
+        <div class="title">
+            Featured Post
+        </div>
+
+        <div class="main">
+            <div class="content">
+                <h1>Lorem Post 1</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam doloremque sit illum, perferendis tenetur quod rerum placeat? Maxime laborum rem magni modi, debitis voluptatibus perspiciatis?</p>
+            </div>
+            <div class="content">
+                <h1>Lorem Post 2</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam doloremque sit illum, perferendis tenetur quod rerum placeat? Maxime laborum rem magni modi, debitis voluptatibus perspiciatis?</p>
+            </div>
+            <div class="content">
+                <h1>Lorem Post 3</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam doloremque sit illum, perferendis tenetur quod rerum placeat? Maxime laborum rem magni modi, debitis voluptatibus perspiciatis?</p>
+            </div>
+            <div class="content">
+                <h1>Lorem Post 4</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam doloremque sit illum, perferendis tenetur quod rerum placeat? Maxime laborum rem magni modi, debitis voluptatibus perspiciatis?</p>
+            </div>  
+        </div>
+
+    </article>
+
+    <footer>
+        Copyright &copy; Muhammad Rahman
+    </footer>
+
+
+</body>
+</html>
