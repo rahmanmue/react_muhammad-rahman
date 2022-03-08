@@ -45,7 +45,7 @@ Untuk menggunakan bootstrap terlebih dahulu mengunjungi website nya [Bootstrap](
 
 Untuk penggunaan bootstrap sendiri lebih mudah karena terdapat dokumentasi yang membantu di websitenya seperti pembuatan navbar, tombol, font, menyisipkan gambar dan lainnya. Disini saya akan menjelaskan beberapa penggunaan bootsrap yang telah dipelajari 
 
-### row dan col 
+### Row dan Col 
 row dan col sendiri merupakan hal yang terpenting di bootstrap untuk menentukan layout dari sebuah website seperti namanya row yaitu baris dan col yaitu kolom jadi kita bisa membuat beberapa konten dalam satu row tanpa perlu manual menggunakan flex yang sebelumnya dipelajari dalam css. cara menggunakan nya dengan menambahkan class row dan col contoh
 ```
 <div class ="row">
@@ -55,7 +55,7 @@ row dan col sendiri merupakan hal yang terpenting di bootstrap untuk menentukan 
 </div>
 ```
 
-### margin dan padding
+### Margin dan Padding
 untuk margin dan padding sendiri dapat digunakan dengan menambahkan class m untuk margin dan p untuk padding untuk menentukan arah nya terdapat s,t,e,b yaitu start,top,end, dan bottom. dan jarak nya dari 0,1,2,3,4,5 dalam satuan rem contoh margin top tiap element 1rem dan padding bottom nya 2rem 
 
 ```
@@ -63,7 +63,7 @@ untuk margin dan padding sendiri dapat digunakan dengan menambahkan class m untu
     <div class="mt-1 mb-2"></div>
 ```
 
-### menyisipkan gambar menjadi responsive dan thumbnail
+### Menyisipkan gambar menjadi responsive dan thumbnail
 pada bootstrap untuk menyisipkan gambar agar responsive hanya dengan menambahkan class img-fluid sedangkan untuk gambar menjadi thumbnail dengan class img-thumbnail 
 
 ```
@@ -71,8 +71,16 @@ pada bootstrap untuk menyisipkan gambar agar responsive hanya dengan menambahkan
 <img src="..." class="img-thumbnail" alt="...">
 ```
 
-### membuat button
+### Membuat Button
 untuk membuat button dengan menambahkan class btn btn-{primary,secondary,success,warning,danger} terdapat banyak pilihan pada warna dengan primary sebagai biru, secondary sebagai abu, success sebagai hijau, warning sebagai kuning, dan danger sebagai merah
+
+```
+  <button type="button" class="btn btn-primary">Button Biru</button>
+  <button type="button" class="btn btn-secondary">Button Abu</button>
+  <button type="button" class="btn btn-success">Button Hijau</button>
+  <button type="button" class="btn btn-warning">Button Kuning</button>
+  <button type="button" class="btn btn-danger">Button Merah</button>
+```
 
 
 
