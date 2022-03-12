@@ -9,7 +9,7 @@ Clean Code adalah istilah yang mudah dibaca dan dipahami dan diubah oleh program
     3. Singkat namun mendeskripsikan konteks
     4. Konsisten
     5. Hindari penambahan konteks yang tidak perlu
-    6. Komentar untuk menjelaskan setiap code
+    6. Komentar untuk pada blok code tertentu
     7. Good Function
     8. Formatting 
 
