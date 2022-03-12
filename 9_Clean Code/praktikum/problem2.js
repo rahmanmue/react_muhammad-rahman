@@ -1,18 +1,17 @@
 class Kendaraan{
-    constructor( kecepatanPerJam = 0, totalRoda = 0){
-        this.kecepatanPerJam = kecepatanPerJam;
+    constructor( totalRoda = 0, kecepatanPerJam = 0 ){
         this.totalRoda = totalRoda;
+        this.kecepatanPerJam = kecepatanPerJam;
     }
 }
 
 class Mobil extends Kendaraan{
+    constructor(totalRoda, kecepatanPerJam){
+        super(totalRoda, kecepatanPerJam);
+    }
 
-    // berjalan(nilai){
-    //     return this.tambahKecepatan(nilai);
-    // }
-
-    berjalan(){
-        return this.tambahKecepatan(10);
+    berjalan(val){
+        return this.tambahKecepatan(val);
     }
 
     tambahKecepatan(kecepatanBaru){
@@ -21,12 +20,11 @@ class Mobil extends Kendaraan{
 
 }
 
-function main(){
-        let mobilCepat = new Mobil(4,20);
-        mobilCepat.berjalan(); 
-     
-        let mobilLamban = new Mobil(4,10);
-        mobilLamban.berjalan(); 
+function main(Kecepatan, tambahKecepatan){
+        let mobil = new Mobil(4,Kecepatan);        
+        let mobilBerjalan = mobil.berjalan(tambahKecepatan); 
+
+        return mobilBerjalan;
 }
 
-console.log(main());
+console.log(main(10,15));
