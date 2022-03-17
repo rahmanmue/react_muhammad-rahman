@@ -1,0 +1,17 @@
+.TodoApp h2{
+  margin-left: 20px;
+}
+
+.group-btn{
+  margin-top: 20px;
+}
+
+.btn{
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid black;
+  margin-top: 5px;
+  margin-left: 20px;
+  background-color: white;
+  display: block;
+}
