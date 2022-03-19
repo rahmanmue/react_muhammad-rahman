@@ -31,5 +31,7 @@ terdapat 4 Hook Routing React yaitu
 * useLocation 
 
 ## Tugas 
-[Link Tugas]();
-![screenshots]();
+[Link Tugas](praktikum/my-task/)
+![screenshots](screenshots/home.png)
+![screenshots](screenshots/about-author.png)
+![screenshots](screenshots/about-app.png)

@@ -110,5 +110,18 @@
   padding-right: 15%;
 }
 
+.img-responsive{
+  width: 70%;
+  /* justify-content: center; */
+
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #f2f2f2;
+}
 
 

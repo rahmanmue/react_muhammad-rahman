@@ -1,5 +1,5 @@
 import {Link} from "react-router-dom";
-import imageTodos from "../asset/imagetodos.jpeg";
+import imageTodos from "../asset/imagetodos.jpeg"
 import './Index.css'
 function Home() {
   return (
@@ -18,9 +18,8 @@ function Home() {
         </nav>
     </div>
 
-    <div className="content">
-        <img src="asset/imagetodos.jpeg"/>
-    </div>
+    <img src={imageTodos} alt="img"/>
+    
     </>
   );
 }
