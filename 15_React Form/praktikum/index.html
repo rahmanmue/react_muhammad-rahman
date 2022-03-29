@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React Form</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap");
+
+      * {
+        font-family: "Poppins";
+      }
+
+      label {
+        display: block;
+        margin-top: 10px;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      input[type="number"],
+      select,
+      textarea {
+        width: 100%;
+        padding: 5px;
+        border-radius: 2px;
+        box-sizing: border-box;
+      }
+
+      textarea {
+        height: 80px;
+      }
+
+      .button {
+        padding: 5px 25px;
+        border-radius: 3px;
+        border: none;
+        color: white;
+      }
+
+      .submit {
+        background-color: rgb(53, 224, 53);
+      }
+
+      .reset {
+        background-color: rgb(226, 25, 25);
+      }
+
+      .main {
+        margin: 0 auto;
+        width: 75%;
+      }
+
+      .title {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="title">
+      <h1>Pendaftaran Peserta Coding Bootcamp</h1>
+    </div>
+
+    <div class="main">
+      <form action="">
+        <label>Nama Lengkap : </label>
+        <input type="text" name="nama" required />
+        <label>Email : </label>
+        <input type="email" name="email" required />
+        <label>No Handphone : </label>
+        <input type="number" name="noHandphone" required />
+        <label>Latar Belakang Pendidikan : </label>
+        <input type="radio" name="pendidikan" required /> IT
+        <input type="radio" name="pendidikan" required /> Non IT
+        <label>Kelas Koding yang dipilih : </label>
+        <select name="kelas" value="Pilih Salah Satu Program" required>
+          <option value="" disabled selected hidden>
+            Pilih Salah Satu Program
+          </option>
+          <option value="">Coding Backend with Golang</option>
+          <option value="">Coding Frontend with ReactJS</option>
+          <option value="">Fullstack Developer</option>
+        </select>
+        <label>Foto Surat Kesungguhan : </label>
+        <input type="file" required />
+        <label>Harapan Untuk Coding Bootcamp ini : </label>
+        <textarea name="harapan"></textarea>
+
+        <div>
+          <input type="submit" class="button submit" />
+          <input type="reset" class="button reset" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
