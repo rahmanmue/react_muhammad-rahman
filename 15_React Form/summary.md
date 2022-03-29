@@ -5,35 +5,20 @@
 Form dapat digunakan untuk menghandle inputan dari user. Form banyak dijumpai saat login, mendaftarkan sesuatu, memberikan feedback, mengisi data dan masih banyak lainnya. Terdapat beberapa macam form diantaranya tag input, texarea, dan select sedangkan dalam input terdapat macam input yang sering digunakan penggunaan dengan memasukan salah satu type pada atribu type di input yaitu :
 
 - `<input type="text">` text (default)
-- <input type="text">
 - `<input type="button" value="button">` button
-- <input type="button" value="button">
 - `<input type="color">` color
-- <input type="color">
 - `<input type="checkbox">` checkbox
-- <input type="checkbox">
 - `<input type="date">` date
-- <input type="date">
 - `<input type="email">` email
-- <input type="email">
 - `<input type="file">` file
-- <input type="file">
 - `<input type="hidden">` hidden
-- <input type="hidden">
 - `<input type="month">` month
-- <input type="month">
 - `<input type="number">` number
-- <input type="number">
 - `<input type="password">` password
-- <input type="password">
 - `<input type="radio">` radio
-- <input type="radio">
 - `<input type="reset">` reset
-- <input type="reset">
 - `<input type="submit">` submit
-- <input type="submit">
 - `<input type="url">` url
-- <input type="url">
 
 ## Controlled dan Uncontrolled Component
 
@@ -72,7 +57,7 @@ Built Form Validation pada form yaitu required, minlength dan maxlength, min dan
   ![screenshots1](screenshots/Screenshot2.png)
 - Data Tersimpan ditampilkan di Console
   ![screenshots1](screenshots/Screenshot3.png)
-- Validasi input Tidak Sesuai
+- Validasi input Tidak Sesuai <br>
   ![screenshots1](screenshots/Screenshot4.png)
 - Alert Gagal Yang Ditampilkan
   ![screenshots1](screenshots/Screenshot5.png)
