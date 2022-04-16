@@ -8,6 +8,6 @@
 
 ## Weekly Task 2
 
-<!-- - [Link Tugas Weekly 2](praktikum/week2) <br> -->
+- [Link Tugas Weekly 2](praktikum/week2) <br>
 
-<!-- ![Weekly 1](screenshots/weeklytask1.png) -->
+![Weekly 1](screenshots/weeklytask2.png)
