@@ -34,3 +34,10 @@ Terdapat beberpa tools yang direkomendasikan untuk pengetesan pada react yaitu :
    Merupakan seperangkat helpers yang memungkinkan mengetes komponen pada react tanpa bergantung pada detail implementasinya.
 
 Jika kita menginstal react dengan create-react-app Jest dan React Testing Library akan secara default sudah terinstal.
+
+## Tugas
+
+Untuk tugas saya mengalami error dikarenakan materi yang dijelaskan kurang paham dan ketika saya ikuti di website alta tentang materi Testing mengalami error <br>
+
+![satu](screenshots/formtest.png)
+![dua](screenshots/searchanduseinputvaluetest.png.png)

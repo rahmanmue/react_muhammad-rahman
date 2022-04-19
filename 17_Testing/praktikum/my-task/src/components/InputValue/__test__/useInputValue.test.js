@@ -1,8 +1,10 @@
-// import { render, screen } from "@testing-library/react";
-// import Input from "../useInputValue";
+import { render, screen } from "@testing-library/react";
+import { act, renderHook } from "@testing-library/react-hooks";
+import Input, { useInputValue } from "../useInputValue";
 
-// test("renders Input Component", () => {
-//   render(<Input />);
-//   const linkElement = screen.getByText(/learn react/i);
-//   expect(linkElement).toBeInTheDocument();
-// });
+describe("when rendered", () => {
+  it("renders Input Component", () => {
+    const { result } = renderHook(() => useInputValue("Test"));
+    expect(result.current.value).toEqual("Test");
+  });
+});
