@@ -40,4 +40,4 @@ Jika kita menginstal react dengan create-react-app Jest dan React Testing Librar
 Untuk tugas saya mengalami error dikarenakan materi yang dijelaskan kurang paham dan ketika saya ikuti di website alta tentang materi Testing mengalami error <br>
 
 ![satu](screenshots/formtest.png)
-![dua](screenshots/searchanduseinputvaluetest.png.png)
+![dua](screenshots/searchanduseinputvaluetest.png)
