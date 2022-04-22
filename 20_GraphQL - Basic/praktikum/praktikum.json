@@ -1,0 +1,38 @@
+query MyQuery {
+    kampus_merdeka_keterangan(where: {Status: {_eq: true}}) {
+      Nilai
+      Pelajaran
+      Status
+    }
+  }
+  
+
+mutation InsertMultiple($objects: [kampus_merdeka_keterangan_insert_input!] = {}) {
+    insert_kampus_merdeka_keterangan(objects: $objects) {
+      returning {
+        Nilai
+        Pelajaran
+        Status
+      }
+    }
+  }
+
+  
+// Query Variables Input Multiple
+
+{
+    "objects": [
+    {
+      "Nilai": 55,
+      "Pelajaran": "React",
+      "Status": false,
+      "id_anggota": 3
+    }, 
+    {
+      "Nilai": 90,
+      "Pelajaran": "Matematika",
+      "Status": true,
+      "id_anggota": 3
+    }
+  ]
+}
