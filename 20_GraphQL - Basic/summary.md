@@ -25,20 +25,20 @@ Hasil
 
 ### Membuat Tabel Anggota
 
-[1](screenshots/tabelanggota.png)
+![1](screenshots/tabelanggota.png)
 
 ### Membuat Tabel Keterangan
 
-[2](screenshots/tabelketerangan.png)
+![2](screenshots/tabelketerangan.png)
 
 ### Query Tabel Keterangan Status True
 
-[3](screenshots/querystatustrue.png)
+![3](screenshots/querystatustrue.png)
 
 ### Memasukan Data
 
-[4](screenshots/insertmultiple.png)
+![4](screenshots/insertmultiple.png)
 
 ### Hasil Akhir
 
-[5](screenshots/hasilakhir.png)
+![5](screenshots/hasilakhir.png)
